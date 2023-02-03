@@ -1,0 +1,143 @@
+#navbar {
+  height: 100px;
+  display: flex;
+  border: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#navbar .logo {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+#navbar .logo img {
+  width: 200px;
+  height: 26px;
+}
+#navbar .right-section {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  padding: 0;
+  right: 90px;
+  margin-top: 40px;
+}
+#navbar .right-section .nav-list {
+  display: flex;
+  text-decoration: none;
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.4em;
+}
+#navbar .right-section .nav-list ul .nav-list-inside li {
+  background-color: white;
+  text-decoration: none;
+  width: 100%;
+  height: 100px;
+  transition: all 1s;
+  transform: translate(-200px, 0);
+}
+#navbar .right-section .icon {
+  display: flex;
+}
+#navbar .right-section span {
+  color: #1b1b1b;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+}
+
+main #upper-slide .picture img {
+  width: 100%;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #upper-slide .picture .text-slide {
+  position: absolute;
+  top: 250px;
+  left: 110px;
+}
+main #upper-slide .picture .text-slide h2 {
+  width: 50%;
+  font-family: "Playfair Display";
+  font-size: 60px;
+  font-weight: 50px;
+}
+main #upper-slide .picture .text-slide h2 span {
+  color: red;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main #upper-slide .picture .text-slide p {
+  color: #acabac;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: Lora, serif;
+  width: 40%;
+}
+main #upper-slide .picture .text-slide img {
+  width: 20%;
+  height: 50px;
+}
+main #categorie .container .categorie-list ul {
+  display: flex;
+  gap: 34px;
+}
+main #categorie .container .categorie-list ul li {
+  list-style: none;
+}
+main #categorie .container .categorie-list ul li a {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+main #categorie .container .categorie-list ul li a:hover {
+  color: red;
+  transition: 0.5s;
+}
+main #categorie .container .categorie-list .right-filter {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 56px;
+}
+main #categorie .container .categorie-list .right-filter a {
+  text-decoration: none;
+  color: black;
+  margin-top: -36px;
+}
+main #products .container .p-card {
+  display: flex;
+  text-align: center;
+  transition: 0.5s;
+  flex-direction: column;
+  width: 100%;
+}
+main #products .container .p-card img {
+  width: 100%;
+  height: 370px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #products .container .p-card span {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 10px;
+}
+main #products .container .p-card p {
+  font-size: 10px;
+}
+main #products .container .p-card .hover {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=home.css.map */
